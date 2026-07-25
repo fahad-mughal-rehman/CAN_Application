@@ -1,0 +1,35 @@
+/* Self-hosted fonts (bundled in src/assets/fonts) — no network calls, so the
+   app renders correctly on an offline deployment machine. */
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 700; /* variable font: one file covers the whole range */
+  font-display: swap;
+  src: url("../assets/fonts/Inter-Variable.woff2") format("woff2-variations"),
+       url("../assets/fonts/Inter-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/Rajdhani-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Rajdhani-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Rajdhani-Bold.woff2") format("woff2");
+}

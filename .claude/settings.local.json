@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"/d/Project/CAN_application/server\" \"/d/Project/CAN_application/client/src/components\" \"/d/Project/CAN_application/client/src/hooks\" \"/d/Project/CAN_application/client/src/api\" \"/d/Project/CAN_application/client/src/styles\" && ls \"/d/Project/CAN_application\")",
+      "Bash(curl -s http://localhost:5000/api/status)",
+      "Bash(curl -s -X POST http://localhost:5000/api/send-command -H \"Content-Type: application/json\" -d '{\"command\":\"0x1A\"}')"
+    ],
+    "additionalDirectories": [
+      "D:\\Project\\CAN_application"
+    ]
+  }
+}
